@@ -335,7 +335,7 @@ const BENTO_DRONE = 'bento_drone';
 addItem({n: BENTO_DRONE, nEn: 'Bento Drone', nZh: '便当无人机', nJa: 'キャラ弁ドローン', c: G_WEAPON, r: G_R6, s: G_SP_GLUTTONY, atk1: 9000, mHp1: 30000, power: -10, cl: G_CL_MINION, b: BONUS_GADGET_10});
 
 const BLAZING_DRAGON = 'blazing_dragon';
-addItem({n: BLAZING_DRAGON, nEn: 'Blazing Dragon', nZh: '烈焰巨龙', nJa: 'ブレイジングドラゴン', c: G_WEAPON, r: G_R6, s: G_SP_MECHA, atk1: 14742, power: -10, cl: G_CL_SPECIAL, b: BONUS_BODY_10});
+addItem({n: BLAZING_DRAGON, nEn: 'Blazing Dragon', nZh: '烈焰巨龙', nJa: 'ブレイジングドラゴン', c: G_WEAPON, r: G_R6, s: G_SP_MECHA, atk1: 12285, power: -10, cl: G_CL_SPECIAL, b: BONUS_BODY_10});
 
 const KAPPA_DRONE = 'kappa_drone';
 addItem({n: KAPPA_DRONE, nEn: 'Kappa Drone', nZh: 'KAPPA无人机', nJa: 'カッパドローン', c: G_WEAPON, r: G_R6, s: G_SP_NATURALIS, sip: G_SIP_R6, atk1: 8000, mHp1: 12740, power: -10, cl: G_CL_MINION, b: BONUS_WEAPON_10});
