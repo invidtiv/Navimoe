@@ -215,7 +215,7 @@ const addItem = (item) => {
 
 // Bodies R6
 const TUBBY_BUS = 'tubby_bus';
-addItem({n: TUBBY_BUS, nEn: 'Tuddy Bus', nZh: '肥猫巴士', nJa: 'おデブバス', c: G_BODY, r: G_R6, s: G_SP_GLUTTONY, hp1: 32568, power: 35, b: BONUS_WHEEL_25, sl: SLOT_232});
+addItem({n: TUBBY_BUS, nEn: 'Tubby Bus', nZh: '肥猫巴士', nJa: 'おデブバス', c: G_BODY, r: G_R6, s: G_SP_GLUTTONY, hp1: 32568, power: 35, b: BONUS_WHEEL_25, sl: SLOT_232});
 
 // Base up, HP SIP changed
 const COOL_DUCKY = 'cool_ducky';
