@@ -62,6 +62,7 @@ const SLOT_203 = {weapon: 2, wheel: 0, gadget: 3};
 const SLOT_221 = {weapon: 2, wheel: 2, gadget: 1};
 const SLOT_222 = {weapon: 2, wheel: 2, gadget: 2};
 const SLOT_232 = {weapon: 2, wheel: 3, gadget: 2};
+const SLOT_222 = {weapon: 2, wheel: 3, gadget: 3};
 const SLOT_321 = {weapon: 3, wheel: 2, gadget: 1};
 const SLOT_331 = {weapon: 3, wheel: 3, gadget: 1};
 const SLOT_322 = {weapon: 3, wheel: 2, gadget: 2};
@@ -215,7 +216,7 @@ const addItem = (item) => {
 
 // Bodies R6
 const TUBBY_BUS = 'tubby_bus';
-addItem({n: TUBBY_BUS, nEn: 'Tubby Bus', nZh: '肥猫巴士', nJa: 'おデブバス', c: G_BODY, r: G_R6, s: G_SP_GLUTTONY, hp1: 32568, power: 35, b: BONUS_WHEEL_25, sl: SLOT_232});
+addItem({n: TUBBY_BUS, nEn: 'Tubby Bus', nZh: '肥猫巴士', nJa: 'おデブバス', c: G_BODY, r: G_R6, s: G_SP_GLUTTONY, hp1: 35,825 , power: 40, b: BONUS_WHEEL_25, sl: SLOT_233});
 
 // Base up, HP SIP changed
 const COOL_DUCKY = 'cool_ducky';
