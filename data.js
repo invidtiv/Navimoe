@@ -214,7 +214,6 @@ const addItem = (item) => {
   allItemNames.push(normalizedItem.name());
 };
 
-
 // Bodies R6
 const TUBBY_BUS = 'tubby_bus';
 addItem({n: TUBBY_BUS, nEn: 'Tubby Bus', nZh: '肥猫巴士', nJa: 'おデブバス', c: G_BODY, r: G_R6, s: G_SP_GLUTTONY, hp1: 35825 , power: 35, b: BONUS_WHEEL_25, sl: SLOT_233});
