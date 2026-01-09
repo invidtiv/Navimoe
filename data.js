@@ -234,8 +234,8 @@ addItem({n: PHANTOM_CIRCUS, nEn: 'Phantom Circus', nZh: '幻影马戏团', nJa: 
 const RAM = 'ram';
 addItem({n: RAM, nEn: 'R.A.M.', nZh: 'R.A.M.', nJa: 'R.A.M.', c: G_BODY, r: G_R6, s:G_SP_MECHA, hp1: 32568, power: 35, b: BONUS_WEAPON_10, sl: SLOT_331});
 
-const SCHRODINTECH = 'schrodintech';
-addItem({n: SCHRODINTECH, nEn: 'Schrodintech', nZh: '薛定谔科技', nJa: 'シュレーディンテック', c: G_BODY, r: G_R6, s:G_SP_MECHA, hp1: 38409, power: 35, b: BONUS_GADGET_10, sl: SLOT_222});
+const SCHRODINTECH = 'schrodintech'; 
+addItem({n: SCHRODINTECH, nEn: 'Schrodintech', nZh: '薛定谔科技', nJa: 'シュレーディンテック', c: G_BODY, r: G_R6, s:G_SP_MECHA, hp1: 40329, power: 40, b: BONUS_GADGET_10, sl: SLOT_223});
 
 const BLOSSOM_STAR = 'blossom_star';
 addItem({n: BLOSSOM_STAR, nEn: 'Blossom Star', nZh: '繁花之星', nJa: 'ブロッサムスター', c: G_BODY, r: G_R6, s:G_SP_NATURALIS, hp1: 40164, power: 35, b: BONUS_WEAPON_10, sl: SLOT_222});
