@@ -343,7 +343,7 @@ const BLAZING_DRAGON = 'blazing_dragon';
 addItem({n: BLAZING_DRAGON, nEn: 'Blazing Dragon', nZh: '烈焰巨龙', nJa: 'ブレイジングドラゴン', c: G_WEAPON, r: G_R6, s: G_SP_MECHA, atk1: 12285, power: -10, cl: G_CL_SPECIAL, b: BONUS_BODY_10});
 
 const KAPPA_DRONE = 'kappa_drone';
-addItem({n: KAPPA_DRONE, nEn: 'Kappa Drone', nZh: 'KAPPA无人机', nJa: 'カッパドローン', c: G_WEAPON, r: G_R6, s: G_SP_NATURALIS, sip: G_SIP_R6, atk1: 8000, mHp1: 12740, power: -10, cl: G_CL_MINION, b: BONUS_WEAPON_10});
+addItem({n: KAPPA_DRONE, nEn: 'Kappa Drone', nZh: 'KAPPA无人机', nJa: 'カッパドローン', c: G_WEAPON, r: G_R6, s: G_SP_NATURALIS, sip: G_SIP_R6, atk1: 8000, mHp1: 11000, power: -10, cl: G_CL_MINION, b: BONUS_WEAPON_10});
 
 const MAD_LOG = 'mad_log';
 addItem({n: MAD_LOG, nEn: 'Mad Log', nZh: '疯狂原木', nJa: 'マッド丸太', c: G_WEAPON, r: G_R6, s: G_SP_GLUTTONY, atk1: 7500, power: -5, cl: G_CL_RANGED, b: BONUS_WEAPON_10});
