@@ -221,7 +221,7 @@ const TUBBY_BUS = 'tubby_bus';
 addItem({n: TUBBY_BUS, nEn: 'Tubby Bus', nZh: '肥猫巴士', nJa: 'おデブバス', c: G_BODY, r: G_R6, s: G_SP_GLUTTONY, hp1: 35825 , power: 35, b: BONUS_WHEEL_25, sl: SLOT_233});
 
 const CLAW_RIDER = 'claw_rider';
-addItem({n: CLAW_RIDER, nEn: 'Claw Rider', nZh: '爪骑手', nJa: 'クローライダー', c: G_BODY, r: G_R6, s:G_SP_MECHA, hp1: 45312, power: 35, b: BONUS_WEAPON_15, sl: SLOT_232});
+addItem({n: CLAW_RIDER, nEn: 'Claw Rider', nZh: '利爪骑士', nJa: 'クローライダー', c: G_BODY, r: G_R6, s:G_SP_MECHA, hp1: 45312, power: 35, b: BONUS_WEAPON_15, sl: SLOT_232});
 
 // Base up, HP SIP changed
 const COOL_DUCKY = 'cool_ducky';
@@ -231,7 +231,7 @@ const IRON_MAIDEN = 'iron_maiden';
 addItem({n: IRON_MAIDEN, nEn: 'Iron Maiden', nZh: '铁娘子', nJa: 'アイアンメイデン', c: G_BODY, r: G_R6, s:G_SP_MECHA, hp1: 48120, power: 35, b: BONUS_WHEEL_15, sl: SLOT_222});
 
 const POPSICLE_BEAST = 'popsicle_beast';
-addItem({n: POPSICLE_BEAST, nEn: 'Popsicle Beast', nZh: '冰棒兽', nJa: 'アイスキャンデー・ビースト', c: G_BODY, r: G_R6, s:G_SP_GLUTTONY, hp1: 42382, power: 35, b: BONUS_WEAPON_10, sl: SLOT_421});
+addItem({n: POPSICLE_BEAST, nEn: 'Popsicle Beast', nZh: '冰棒野兽', nJa: 'アイスキャンデー・ビースト', c: G_BODY, r: G_R6, s:G_SP_GLUTTONY, hp1: 42382, power: 35, b: BONUS_WEAPON_10, sl: SLOT_421});
 
 const PHANTOM_CIRCUS = 'phantom_circus';
 addItem({n: PHANTOM_CIRCUS, nEn: 'Phantom Circus', nZh: '幻影马戏团', nJa: 'ファントムサーカス', c: G_BODY, r: G_R6, s: G_SP_GLUTTONY, hp1: 46088, power: 40, b: BONUS_GADGET_20, sl: SLOT_203});
@@ -320,7 +320,7 @@ addItem({n: CUTTER, nEn: 'Cutter', nZh: '切割机', nJa: 'カッター', c: G_B
 // Weapons R6
 
 const KITTY_ORB = 'kitty_orb';
-addItem({n: KITTY_ORB, nEn: 'Kitty Orb', nZh: '凯蒂球', nJa: 'キティオーブ', c: G_WEAPON, r: G_R6, s: G_SP_MECHA, atk1: 12675, mHp1: 35000, power: -10, cl: G_CL_MINION, b: BONUS_BODY_20});
+addItem({n: KITTY_ORB, nEn: 'Kitty Orb', nZh: '小猫能量球', nJa: 'キティオーブ', c: G_WEAPON, r: G_R6, s: G_SP_MECHA, atk1: 12675, mHp1: 35000, power: -10, cl: G_CL_MINION, b: BONUS_BODY_20});
 
 const HAIRBALL_THROWER = 'hairball_thrower';
 addItem({n: HAIRBALL_THROWER, nEn: 'Hairball Thrower', nZh: '毛球投掷机', nJa: '毛玉シューター', c: G_WEAPON, r: G_R6, s: G_SP_MECHA, atk1: 9000, power: -10, cl: G_CL_RANGED, b: BONUS_BODY_10});
