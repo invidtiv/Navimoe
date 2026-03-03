@@ -320,7 +320,7 @@ addItem({n: CUTTER, nEn: 'Cutter', nZh: '切割机', nJa: 'カッター', c: G_B
 // Weapons R6
 
 const PANDA_FALL = 'panda';
-addItem({n: PANDA_FALL, nEn: 'Panda', nZh: '貓熊', nJa: 'パンダ', c: G_WEAPON, r: G_R6, s: G_SP_MECHA, atk1: 10000, power: -10, cl: G_CL_AUTO_AIM, b: BONUS_WEAPON_15});
+addItem({n: PANDA_FALL, nEn: 'Panda', nZh: '貓熊', nJa: 'パンダ', c: G_WEAPON, r: G_R6, s: G_SP_MECHA, atk1: 10000, power: -10, cl: G_CL_AUTO_AIM, b: BONUS_WEAPON_10});
 
 const KITTY_ORB = 'kitty_orb';
 addItem({n: KITTY_ORB, nEn: 'Kitty Orb', nZh: '小猫能量球', nJa: 'キティオーブ', c: G_WEAPON, r: G_R6, s: G_SP_MECHA, atk1: 12675, mHp1: 35000, power: -10, cl: G_CL_MINION, b: BONUS_BODY_20});
