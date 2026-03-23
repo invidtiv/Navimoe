@@ -138,3 +138,23 @@ button {
 .color-over {
   color: #C00;
 }
+
+
+
+
+.item-img-container {
+  position: relative;
+}
+
+.tap-tip {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  background: #222;
+  color: #fff;
+  padding: 6px;
+  font-size: 12px;
+  white-space: pre-line;
+  border-radius: 4px;
+  z-index: 1000;
+}
