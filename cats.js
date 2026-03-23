@@ -399,6 +399,50 @@ const runCatsBuddy = () => {
             return (e) => updateLevelCb(name, e.target.value);
           })());
           div.title = validationInfo.hoverMessages[carBuilderItem.item().name()];
+
+
+
+// EXPIREMENT MOBILE
+
+
+          const isTouch = window.matchMedia('(hover: none) and (pointer: coarse)').matches;
+
+          if (isTouch) {
+            div.addEventListener('click', (e) => {
+              e.stopPropagation();
+          
+              let tip = div.querySelector('.tap-tip');
+          
+              // toggle
+              if (tip) {
+                tip.remove();
+                return;
+              }
+          
+              // remove others
+              document.querySelectorAll('.tap-tip').forEach(t => t.remove());
+          
+              tip = document.createElement('div');
+              tip.className = 'tap-tip';
+              tip.innerText = div.title;
+          
+              div.appendChild(tip);
+            });
+          }
+          
+          // click anywhere closes it
+          document.addEventListener('click', () => {
+            document.querySelectorAll('.tap-tip').forEach(t => t.remove());
+          });
+          
+          
+         
+// EXPIREMENT END
+
+          
+
+
+          
         }
       };
 
