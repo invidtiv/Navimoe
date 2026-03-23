@@ -1021,3 +1021,7 @@ const runCatsBuddy = () => {
 $(() => {
   runCatsBuddy();
 });
+
+document.addEventListener('click', () => {
+  document.querySelectorAll('.tap-tip').forEach(t => t.remove());
+});
