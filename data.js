@@ -331,6 +331,9 @@ addItem({n: KITTY_ORB, nEn: 'Kitty Orb', nZh: '小猫能量球', nJa: 'キティ
 const HAIRBALL_THROWER = 'hairball_thrower';
 addItem({n: HAIRBALL_THROWER, nEn: 'Hairball Thrower', nZh: '毛球投掷机', nJa: '毛玉シューター', c: G_WEAPON, r: G_R6, s: G_SP_MECHA, atk1: 9000, power: -10, cl: G_CL_RANGED, b: BONUS_BODY_10});
 
+const MYSTIC_SLIME = 'mystic_slime';
+addItem({n: MYSTIC_SLIME, nEn: 'Mystic Slime', nZh: '神秘史莱姆', nJa: '神秘のスライム', c: G_WEAPON, r: G_R6, s: G_SP_NATURALIS, atk1: 12740, power: -15, cl: G_CL_AUTO_AIM, b: BONUS_WEAPON_10});
+
 const GUMBALL_GUN = 'gumball_gun';
 addItem({n: GUMBALL_GUN, nEn: 'Gumball Gun', nZh: '口香糖枪', nJa: 'ガムボール銃', c: G_WEAPON, r: G_R6, s: G_SP_GLUTTONY, atk1: 10920, power: -15, cl: G_CL_AUTO_AIM, b: BONUS_WEAPON_10});
 
