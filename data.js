@@ -319,11 +319,8 @@ addItem({n: CUTTER, nEn: 'Cutter', nZh: '切割机', nJa: 'カッター', c: G_B
 
 // Weapons R6
 
-const REAL_PANDA = 'panda';
-addItem({n: REAL_PANDA, nEn: 'Corrected DPS Panda', nZh: 'Corrected DPS 疯狂熊猫', nJa: 'Corrected DPS マッドパンダ', c: G_WEAPON, r: G_R6, s: G_SP_NATURALIS, atk1: 19500, power: -15, cl: G_CL_AUTO_AIM, b: BONUS_WEAPON_10});
-
 const MAD_PANDA = 'panda_fall';
-addItem({n: MAD_PANDA, nEn: 'Mad Panda', nZh: '疯狂熊猫', nJa: 'マッドパンダ', c: G_WEAPON, r: G_R6, s: G_SP_NATURALIS, atk1: 13000, power: -15, cl: G_CL_AUTO_AIM, b: BONUS_WEAPON_10});
+addItem({n: MAD_PANDA, nEn: 'Mad Panda', nZh: '疯狂熊猫', nJa: 'マッドパンダ', c: G_WEAPON, r: G_R6, s: G_SP_NATURALIS, atk1: 19500, power: -15, cl: G_CL_AUTO_AIM, b: BONUS_WEAPON_10});
 
 const KITTY_ORB = 'kitty_orb';
 addItem({n: KITTY_ORB, nEn: 'Kitty Orb', nZh: '小猫能量球', nJa: 'キティオーブ', c: G_WEAPON, r: G_R6, s: G_SP_MECHA, atk1: 12675, mHp1: 35000, power: -10, cl: G_CL_MINION, b: BONUS_BODY_20});
@@ -654,7 +651,7 @@ addItem({n: DOZER_GUIDE_KNOB, nEn: 'Dozer Guide Knob', nZh: '推土机导柄', n
 
 // Gadgets R6
 const SLUGSNOT = 'slug_snot';
-addItem({n: SLUGSNOT , nEn: 'Slug Snot', nZh: '鼻涕虫黏液', nJa: 'ナメクジの粘液', c: G_GADGET, r: G_R6, s: G_SP_NATURALIS, hp1: 20072, power: 5, cl: G_CL_RANGED});
+addItem({n: SLUGSNOT , nEn: 'Alien Egg', nZh: '鼻涕虫黏液', nJa: 'ナメクジの粘液', c: G_GADGET, r: G_R6, s: G_SP_NATURALIS, hp1: 20072, power: 5, cl: G_CL_RANGED});
 
 const COFFEE = 'coffee_cup';
 addItem({n: COFFEE , nEn: 'Coffee Cup', nZh: '咖啡杯', nJa: 'コーヒーカップ', c: G_GADGET, r: G_R6, s: G_SP_GLUTTONY, hp1: 16284, power: 5, cl: G_CL_SPECIAL, b: BONUS_WEAPON_15});
